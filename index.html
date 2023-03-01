@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Boxicons CDN Link -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dashboard Sidebar Menu</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo-details">
+        <i class="bx bxl-c-plus-plus"></i>
+        <span class="logo_name"> Mylena Araújo </span>
+      </div>
+      <ul class="nav-links">
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="link_name">Dashboard</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Categorias</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-link">
+            <a href="#">
+              <i class="bx bx-collection"></i>
+              <span class="link_name">Categorias</span>
+            </a>
+
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#"> Categorias</a></li>
+            <li><a href="#"> HTML & CSS</a></li>
+            <li><a href="#"> JavaScript </a></li>
+            <li><a href="#"> PHP & MySQL </a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-link">
+            <a href="#">
+              <i class="bx bx-book-alt"></i>
+              <span class="link_name">Postagens</span>
+            </a>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#"> Posts</a></li>
+            <li><a href="#"> Web Design</a></li>
+            <li><a href="#"> Login Form </a></li>
+            <li><a href="#"> Card Design </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-pie-chart-alt-2"></i>
+            <span class="link_name">Métricas</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Analytcs</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-line-chart"></i>
+            <span class="link_name">Gráfico</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Gráfico</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="icon-link">
+            <a href="#">
+              <i class="bx bx-plug"></i>
+              <span class="link_name">Plugins</span>
+            </a>
+            <i class="bx bx-chevron-down arrow"></i>
+          </div>
+          <ul class="sub-menu">
+            <li><a class="link_name" href="#"> Plugins</a></li>
+            <li><a href="#"> UI Face</a></li>
+            <li><a href="#"> Pigments </a></li>
+            <li><a href="#"> Box Icons </a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-compass"></i>
+            <span class="link_name">Explorador</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Explorador</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-history"></i>
+            <span class="link_name">Linha do tempo</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Linha do tempo</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bxs-cog"></i>
+            <span class="link_name">Configuração</span>
+          </a>
+          <ul class="sub-menu blanc">
+            <li><a class="link_name" href="#"> Configuração</a></li>
+          </ul>
+        </li>
+        <li>
+          <div class="profile-details">
+            <div class="profile-content">
+              <img src="https://github.com/myllakassia.png" alt="perfil" />
+            </div>
+            <div class="name-job">
+              <div class="profile_name">Mylena Araújo</div>
+              <div class="job">Desenvolvedora Web</div>
+            </div>
+            <i class="bx bx-log-out"></i>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <section class="home-section">
+      <div class="home-content">
+        <i class="bx bx-menu"></i>
+        <span class="text">Barra Lateral Suspensa</span>
+      </div>
+    </section>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
